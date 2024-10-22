@@ -1,0 +1,1 @@
+[22-Oct-2024 00:06:04 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\iago\Documents\GitHub\como-temperar\app\public\wp-includes\class-wp-customize-widgets.php on line 905

@@ -1,1 +1,23 @@
 [22-Oct-2024 00:06:04 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\iago\Documents\GitHub\como-temperar\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[01-Nov-2024 20:33:28 UTC] PHP Parse error:  syntax error, unexpected variable "$cmb" in C:\Users\iago\Documents\GitHub\como-temperar\app\public\wp-content\themes\como-temperar\functions.php on line 99
+[01-Nov-2024 20:33:28 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\iago\Documents\GitHub\como-temperar\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[01-Nov-2024 20:33:28 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\iago\Documents\GitHub\como-temperar\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[01-Nov-2024 23:56:13 UTC] PHP Parse error:  syntax error, unexpected variable "$cmb" in C:\Users\iago\Documents\GitHub\como-temperar\app\public\wp-content\themes\como-temperar\functions.php on line 99
+[01-Nov-2024 23:56:53 UTC] PHP Parse error:  syntax error, unexpected variable "$cmb" in C:\Users\iago\Documents\GitHub\como-temperar\app\public\wp-content\themes\como-temperar\functions.php on line 99
+[01-Nov-2024 23:56:53 UTC] PHP Parse error:  syntax error, unexpected variable "$cmb" in C:\Users\iago\Documents\GitHub\como-temperar\app\public\wp-content\themes\como-temperar\functions.php on line 99
+[01-Nov-2024 23:57:05 UTC] PHP Parse error:  syntax error, unexpected variable "$cmb" in C:\Users\iago\Documents\GitHub\como-temperar\app\public\wp-content\themes\como-temperar\functions.php on line 99
+[02-Nov-2024 01:25:32 UTC] PHP Parse error:  Unclosed '{' on line 113 in C:\Users\iago\Documents\GitHub\como-temperar\app\public\wp-content\themes\como-temperar\functions.php on line 202
+[02-Nov-2024 01:27:18 UTC] PHP Parse error:  Unclosed '(' on line 112 in C:\Users\iago\Documents\GitHub\como-temperar\app\public\wp-content\themes\como-temperar\functions.php on line 114
+[05-Nov-2024 00:50:39 UTC] PHP Parse error:  Unclosed '{' on line 161 in C:\Users\iago\Documents\GitHub\como-temperar\app\public\wp-content\themes\como-temperar\functions.php on line 175
+[05-Nov-2024 00:50:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\iago\Documents\GitHub\como-temperar\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[05-Nov-2024 00:50:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\iago\Documents\GitHub\como-temperar\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[05-Nov-2024 00:50:46 UTC] PHP Parse error:  Unclosed '{' on line 161 in C:\Users\iago\Documents\GitHub\como-temperar\app\public\wp-content\themes\como-temperar\functions.php on line 175
+[06-Nov-2024 14:12:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_description() in C:\Users\iago\Documents\GitHub\como-temperar\app\public\wp-content\themes\como-temperar\single-temperos.php:7
+Stack trace:
+#0 C:\Users\iago\Documents\GitHub\como-temperar\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\iago\Documents\GitHub\como-temperar\app\public\wp-blog-header.php(19): require_once('C:\\Users\\iago\\D...')
+#2 C:\Users\iago\Documents\GitHub\como-temperar\app\public\index.php(17): require('C:\\Users\\iago\\D...')
+#3 {main}
+  thrown in C:\Users\iago\Documents\GitHub\como-temperar\app\public\wp-content\themes\como-temperar\single-temperos.php on line 7
+[06-Nov-2024 14:42:55 UTC] PHP Parse error:  syntax error, unexpected identifier "the_content", expecting "," or ";" in C:\Users\iago\Documents\GitHub\como-temperar\app\public\wp-content\themes\como-temperar\single-temperos.php on line 17
+[06-Nov-2024 14:42:56 UTC] PHP Parse error:  syntax error, unexpected identifier "the_content", expecting "," or ";" in C:\Users\iago\Documents\GitHub\como-temperar\app\public\wp-content\themes\como-temperar\single-temperos.php on line 17

@@ -36,7 +36,13 @@
     </header>
     <div class="banner">
       <div class="banner-content">
-        <h1>Como Temperar</h1>
+            <div id="logo">
+                <div class="oval oval0"></div>
+                <div class="oval oval1"></div>
+                <div class="oval oval2"></div>
+                <div class="oval oval3"></div>
+            </div>
+
         <p>Sabor na medida certa!</p>
       </div>
     </div>

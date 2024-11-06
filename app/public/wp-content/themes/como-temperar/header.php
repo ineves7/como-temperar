@@ -14,20 +14,15 @@
 </head>
 <body>
     <header id="header">
-        <a href="/">
-        <div id="logo">
-            <div class="oval oval0"></div>
-            <div class="oval oval1"></div>
-            <div class="oval oval2"></div>
-            <div class="oval oval3"></div>
-        </div>
+        <a class="" href="/">
+            <h1>Como Temperar</h1>
         </a>
         <nav id="nav">
             <button aria-label="Abrir Menu"id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
                 <span id="hamburguer"></span>
             </button>
             <ul id="menu" role="menu">
-                <li><a href="/Temperos/">Temperos</a></li>
+                <li><a href="/">Home</a></li>
                 <li><a href="/">Blog</a></li>
                 <li><a href="/">Sobre</a></li>
                 <li><a href="/">Contato</a></li>
@@ -36,7 +31,12 @@
     </header>
     <div class="banner">
       <div class="banner-content">
-        <h1>Como Temperar</h1>
-        <p>Sabor na medida certa!</p>
+      <p>Sabor na medida certa!</p>
+        <div id="logo">
+            <div class="oval oval0"></div>
+            <div class="oval oval1"></div>
+            <div class="oval oval2"></div>
+            <div class="oval oval3"></div>
+        </div>
       </div>
     </div>

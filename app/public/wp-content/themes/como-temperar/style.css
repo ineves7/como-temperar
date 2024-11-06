@@ -1,8 +1,8 @@
 /*
-Theme Name: Como-temperar
-Theme URI: https://comotemperar.com
+Theme Name: CapeTown
+Theme URI: https://capetown.com
 Author: Iago Neves
-Author URI: https://comotemperar.com
+Author URI: https://capetown.com
 Description: Tema criado para Blog culinário.
 Requires at least: 6.4
 Tested up to: 6.6
@@ -70,44 +70,8 @@ body, a {
   font-family: "Roboto";
   font-weight: 300;
 }
-.banner {
-  position: relative; /* Necessário para o pseudoelemento ::before */
-  background-image: url('img/condiment3.jpg'); /* Troque pela sua imagem */
-  background-size: cover; /* A imagem cobre todo o banner */
-  background-position: center; /* Centraliza a imagem */
-  height: 70vh; /* O banner ocupa 70% da altura da viewport */
-  display: flex;
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
-  text-align: center;
-  color: white;
-  padding: 20px;
-}
 
-.banner::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5); /* Sombra escura semi-transparente */
-  z-index: 1; /* Overlay está abaixo do conteúdo */
-}
-
-.banner-content h1 {
-  font-size: 3rem; /* Tamanho da fonte grande para o título */
-  margin-bottom: 10px;
-  text-shadow: #FFFFFF 1px;
-}
-
-.banner-content p {
-  font-size: 1.2rem;
-}
-a {
-    text-decoration: none;
-    font-family: "Roboto"
-}
+/* ---- MENU ---- */
 
 #header {
     height: 3.5rem;
@@ -124,26 +88,27 @@ a {
 #logo {
     display: flex;
     width: auto;
-    gap: 4px
+    margin: 4px -2px;
+    gap: 8px;
 }
 .oval {
-  height: 20px ;
-  width: 20px;
+  height: 32px ;
+  width: 32px;
   border-radius: 50%;
   background-color: red;
 }
 
 .oval0 {
-  background-color: #FFFFFF;
+  background-color:#AD0B09;
 }
 .oval1 {
-  background-color: #CF9911;
+  background-color: #7A2E02;
 }
 .oval2 {
-  background-color: #AD0B09;
+  background-color: #CF9911;
 }
 .oval3 {
-  background-color: #7A2E02;
+  background-color: #8FA139;
 }
 
 #menu {
@@ -164,7 +129,69 @@ a {
     display: none;
 }
 
+/* ---- Fim do Menu ---- */
 
+/* ---- Banner ---- */
+
+.banner {
+  position: relative; /* Necessário para o pseudoelemento ::before */
+  background-image: url('img/condiment3.jpg'); /* Troque pela sua imagem */
+  background-size: cover; /* A imagem cobre todo o banner */
+  background-position: center; /* Centraliza a imagem */
+  height: 50vh; /* O banner ocupa 70% da altura da viewport */
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.banner-content h1 {
+  font-size: 3rem; /* Tamanho da fonte grande para o título */
+  margin-bottom: 10px;
+  text-shadow: #FFFFFF 1px;
+}
+
+.banner-content p {
+  font-size: 3rem;
+}
+a h1{
+    text-decoration: none;
+    font-family: "Roboto"
+}
+
+/* ---- Fim do Banner ---- */
+
+/* ---- Single Tempero WP */
+
+.pagina-tempero {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.titulo-tempero {
+  font-size: 3rem;
+  margin: 2rem 0rem 4rem 0rem;
+}
+
+.section-tempero {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 50%;
+  margin: 0 auto
+}
+
+.conteudo-tempero {
+  font-family: Roboto;
+  font-size: 20px;
+}
     @media (max-width: 600px) {
 
         #menu {

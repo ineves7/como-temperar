@@ -15,7 +15,7 @@ if (have_posts()) : while (have_posts()) : the_post();
 
         <div class="section-tempero">
             <div class="conteudo-tempero">
-                <?php echo the_content(); ?>
+                <?php the_content(); ?>
             </div>
         <?php 
 

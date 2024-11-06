@@ -71,45 +71,26 @@ body, a {
   font-weight: 300;
 }
 
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
 /* ---- MENU ---- */
 
 #header {
-    height: 3.5rem;
-    padding: 1rem 2.5rem;
+    height: 4rem;
+    padding: 2rem 5rem;
     display:flex;
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
-    background-color: #b1c064;
+    background-color: #272727;
     margin: 0;
-    border-bottom: .5px solid #D3E08D
+    border-bottom: .5px solid #1a1a1a
 }
 
-#logo {
-    display: flex;
-    width: auto;
-    margin: 4px -2px;
-    gap: 8px;
-}
-.oval {
-  height: 32px ;
-  width: 32px;
-  border-radius: 50%;
-  background-color: red;
-}
 
-.oval0 {
-  background-color:#AD0B09;
-}
-.oval1 {
-  background-color: #7A2E02;
-}
-.oval2 {
-  background-color: #CF9911;
-}
-.oval3 {
-  background-color: #8FA139;
-}
 
 #menu {
     display: flex;
@@ -117,12 +98,43 @@ body, a {
     gap: .5rem ;
 }
 
-#menu a {
+#menu a, #header a {
     display: block;
     padding: .5rem;
     text-decoration: none;
     font-size: 1rem;
     color: #FFFFFF;
+}
+
+#header a h1 {
+  font-size: 32px;
+  font-weight: 300;
+}
+
+#logo-cores {
+  display: flex;
+  width: auto;
+  margin: 4px -2px;
+  gap: 8px;
+}
+.oval {
+height: 27px ;
+width: 27px;
+border-radius: 50%;
+background-color: red;
+}
+
+.oval0 {
+background-color:#AD0B09;
+}
+.oval1 {
+background-color: #7A2E02;
+}
+.oval2 {
+background-color: #CF9911;
+}
+.oval3 {
+background-color: #8FA139;
 }
 
 #btn-mobile {
@@ -147,18 +159,34 @@ body, a {
   padding: 20px;
 }
 
-.banner-content h1 {
-  font-size: 3rem; /* Tamanho da fonte grande para o título */
-  margin-bottom: 10px;
-  text-shadow: #FFFFFF 1px;
-}
-
 .banner-content p {
   font-size: 3rem;
 }
-a h1{
-    text-decoration: none;
-    font-family: "Roboto"
+
+#logo-cores {
+  display: flex;
+  width: auto;
+  margin: 4px -2px;
+  gap: 8px;
+}
+.oval {
+height: 32px ;
+width: 32px;
+border-radius: 50%;
+background-color: red;
+}
+
+.oval0 {
+background-color:#AD0B09;
+}
+.oval1 {
+background-color: #7A2E02;
+}
+.oval2 {
+background-color: #CF9911;
+}
+.oval3 {
+background-color: #8FA139;
 }
 
 /* ---- Fim do Banner ---- */
@@ -181,7 +209,7 @@ a h1{
 .section-tempero {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: start;
   justify-content: center;
   gap: 2rem;
   width: 50%;
@@ -199,10 +227,10 @@ a h1{
           position: absolute;
           height: 0px;
           width: 100%;
-          top: 3.5rem;
+          top: 15vh;
           right: 0px;
           text-align: center;
-          background-color: #b1c064;
+          background-color: #292929;
           z-index: 1000;
           transition: .6s;
           visibility: hidden;
@@ -210,16 +238,25 @@ a h1{
           margin: auto 0;
         }
         #nav.active #menu {
-          height: calc(100vh - 3.5rem);
+          height: calc(100vh - 15vh);
           visibility: visible;
           overflow-y: auto;;
         }
+        #header {
+         margin: auto;
+         height: 15vh;
+         padding: 2rem;
+         border-bottom: .5px solid #5a5a5a
+        }
+        #header a h1 {
+          font-size: 2.2rem;
+        }
         #menu a {
           font-weight: 400;
-          font-size: 1.2rem;
+          font-size: 1.7rem;
           color: #ffffff;
-          padding: 1rem 0;
-          border-bottom: 1px solid #D3E08D ;
+          padding: 1.5rem 0;
+          border-bottom: 1px solid #5a5a5a ;
           transition: .3s;
         }
 
@@ -244,17 +281,17 @@ a h1{
         #hamburguer {
           display: block;
           border-top: 2px solid;
-          width: 25px;
+          width: 27px;
           color: #ffffff
         }
 
         #hamburguer::after, #hamburguer::before {
           content: '';
           display: block;
-          width: 25px;
+          width: 27px;
           height: 2px;
           background: currentColor;
-          margin-top: 6px;
+          margin-top: 7px;
           transition: .3s;
         }
         #nav.active #hamburguer {
@@ -269,17 +306,25 @@ a h1{
         transform: rotate(-135deg);
         margin-top: -2px;
         }
-
         .banner {
-          height: 25vh;
-          padding: 20px;
+          height: 20vh;
         }
-
         .banner-content h1 {
           font-size: 2rem;
           z-index: 1000;
         }
         .banner-content p {
-          font-size: 1rem;
+          font-size: 1.5rem;
+          background-color: #5f5f5f73;
+          padding: 0.5rem;
+        }
+
+        #logo-cores {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 8px;
+          width: auto;
+          gap: 8px;
         }
     }
